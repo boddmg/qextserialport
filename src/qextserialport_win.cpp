@@ -40,7 +40,7 @@
 #if QT_VERSION >= QT_VERSION_CHECK(5, 0, 0)
 #  include <QtCore/QWinEventNotifier>
 #else
-#  include <QtCore/private/qwineventnotifier_p.h>
+#  include "qwineventnotifier_p.h"
 #endif
 void QextSerialPortPrivate::platformSpecificInit()
 {
